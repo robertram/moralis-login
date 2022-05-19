@@ -1,15 +1,15 @@
 import Head from 'next/head'
-import { Hero } from "../src/components/hero";
+import { Header } from "../src/components/Header";
 
 export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero />
+      <Header />
     </div>
   );
 }
